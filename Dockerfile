@@ -14,4 +14,4 @@ EXPOSE 8080
 
 ENV GIN_MODE=release
 
-CMD ./portfolio-golang-api-2d97
+CMD ./portfolio-golang-api
