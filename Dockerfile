@@ -10,8 +10,8 @@ COPY . .
 
 RUN go build
 
-EXPOSE 4567
+EXPOSE 8080
 
 ENV GIN_MODE=release
 
-CMD ./portfolio-golang-api
+CMD ./portfolio-golang-api-2d97
