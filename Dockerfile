@@ -1,4 +1,4 @@
-FROM golang:1.18
+FROM golang:1.19
 
 WORKDIR /app
 
@@ -10,7 +10,7 @@ COPY . .
 
 RUN go build
 
-EXPOSE 8080
+EXPOSE 4567
 
 ENV GIN_MODE=release
 
